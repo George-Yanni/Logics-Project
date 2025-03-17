@@ -1,0 +1,8 @@
+In function 00000080 <main>::
+ - 'in' instruction (loads a value from an I/O register) suspected dealing with internal register at address EXINT_EIMSK (External Interrupt Mask Register, Bitfields: [Bit 1: INT - External Interrupt Request 1 Enable], Values: [- No Values])
+ - 'in' instruction (loads a value from an I/O register) suspected dealing with internal register at address CPU_SREG (Status Register, Bitfields: [Bit 7: I - Global Interrupt Enable, Bit 6: T - Bit Copy Storage, Bit 5: H - Half Carry Flag, Bit 4: S - Sign Bit, Bit 3: V - Two's Complement Overflow Flag, Bit 2: N - Negative Flag, Bit 1: Z - Zero Flag, Bit 0: C - Carry Flag], Values: [- No Values]) or CPU_GPIOR0 (General Purpose I/O Register 0, Bitfields: [No Bitfields], Values: [- No Values])
+ - 'sbi' instruction (sets a bit in an I/O register) suspected dealing with internal register at address PORT_DDRB (Port B Data Direction Register, Bitfields: [No Bitfields], Values: [- No Values])
+ - 'in' instruction (loads a value from an I/O register) suspected dealing with internal register at address PORT_PORTB (Port B Data Register, Bitfields: [No Bitfields], Values: [- No Values])
+ - 'adiw' instruction (adds an immediate value to a register pair) suspected dealing with internal register at address TC16_TCNT1 (Timer/Counter1  Bytes, Bitfields: [No Bitfields], Values: [- No Values]) or ADC_ADC (ADC Data Register  Bytes, Bitfields: [No Bitfields], Values: [- No Values])
+In function 000000c8 <_exit>::
+ - 'cli' (disables global interrupts) detected, may impact control registers

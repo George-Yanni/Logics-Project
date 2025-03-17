@@ -1,0 +1,101 @@
+
+In function 00000080 <main>::
+ - 'in' instruction (loads a value from an I/O register) suspected dealing with internal register at address 0x3d
+ - 'in' instruction (loads a value from an I/O register) suspected dealing with internal register at address 0x3e
+ - 'sbi' instruction (sets a bit in an I/O register) suspected dealing with internal register at address 0x04
+ - 'in' instruction (loads a value from an I/O register) suspected dealing with internal register at address 0x05
+ - 'adiw' instruction (adds an immediate value to a register pair) suspected dealing with internal register at address 0x01
+
+In function 000000c8 <_exit>::
+ - 'cli' (disables global interrupts) detected, may impact control registers
+
+Possible Register(s) For address 0x04:
+MCU: ATmega328P
+Module: PORT
+Register: DDRB
+Caption: Port B Data Direction Register
+Addresses: 0x04, 0x24
+Bitfields:
+  - 
+Values:
+  - No Values
+********************************************************************************
+
+Possible Register(s) For address 0x05:
+MCU: ATmega328P
+Module: PORT
+Register: PORTB
+Caption: Port B Data Register
+Addresses: 0x05, 0x25
+Bitfields:
+  - 
+Values:
+  - No Values
+********************************************************************************
+
+Possible Register(s) For address 0x3E:
+MCU: ATmega328P
+Module: CPU
+Register: SREG
+Caption: Status Register
+Addresses: 0x3E, 0x5F
+Bitfields:
+  - Bit 7: I - Global Interrupt Enable
+  - Bit 6: T - Bit Copy Storage
+  - Bit 5: H - Half Carry Flag
+  - Bit 4: S - Sign Bit
+  - Bit 3: V - Two's Complement Overflow Flag
+  - Bit 2: N - Negative Flag
+  - Bit 1: Z - Zero Flag
+  - Bit 0: C - Carry Flag
+Values:
+  - No Values
+********************************************************************************
+
+Possible Register(s) For address 0x3E:
+MCU: ATmega328P
+Module: CPU
+Register: GPIOR0
+Caption: General Purpose I/O Register 0
+Address: 0x3E
+Bitfields:
+  - 
+Values:
+  - No Values
+********************************************************************************
+
+Possible Register(s) For address 0x3D:
+MCU: ATmega328P
+Module: EXINT
+Register: EIMSK
+Caption: External Interrupt Mask Register
+Address: 0x3D
+Bitfields:
+  - Bit 1: INT - External Interrupt Request 1 Enable
+Values:
+  - No Values
+********************************************************************************
+
+Possible Register(s) For address 0x01:
+MCU: ATmega328P
+Module: TC16
+Register: TCNT1
+Caption: Timer/Counter1  Bytes
+Addresses: 0x01, 0x84
+Bitfields:
+  - 
+Values:
+  - No Values
+********************************************************************************
+
+Possible Register(s) For address 0x01:
+MCU: ATmega328P
+Module: ADC
+Register: ADC
+Caption: ADC Data Register  Bytes
+Addresses: 0x01, 0x78
+Bitfields:
+  - 
+Values:
+  - No Values
+********************************************************************************

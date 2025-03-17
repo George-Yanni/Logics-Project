@@ -1,0 +1,5 @@
+python .\address_to_register.py --datasheet "Path to MCU datasheet" --mcu "MCU name" --csv "Path to CSV file" --address "Your Address"
+
+
+
+python .\address_to_register.py --datasheet "C:/Users/Yanni/Desktop/328pFULL.PDF" --mcu "atmega328p" --csv "C:/Users/Yanni/Desktop/Logics Project/Address To Register/DETAILED_AVR.csv" --address "0x03"
